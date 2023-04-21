@@ -1,28 +1,31 @@
 class Solver
-  def factorial(number)
-    if number.negative?
-      "Please Enter a Positive Integer"
-    elsif number < 2
-      1
+  def factorial(num)
+    factor = 1
+    if num.zero?
+      factor
+    elsif num.negative?
+      raise 'input can not be negative'
     else
-      number * factorial(number - 1)
+      (1..num).each do |x|
+        factor *= x
+      end
+      factor
     end
   end
 
-  def reverse(word)
-    word.reverse
+  def reverse_string(input)
+    input.chars.reverse.join
   end
 
-  def fizzbuzz(num)
-    return "fizz" if (num % 3).zero?
-    return "buzz" if (num % 5).zero?
-    return "fizzbuzz" if (num % 3).zero? && (num % 5).zero?
-
-    num.to_s
+  def fizzbuzz(input)
+    if (input % 3).zero? && (input % 5).zero?
+      'fizzbuzz'
+    elsif (input % 3).zero?
+      'fizz'
+    elsif (input % 5).zero?
+      'buzz'
+    else
+      input.to_s
+    end
   end
 end
-
-# a = Solver.new
-# puts a.factorial(1)
-# puts a.reverse("madam")
-# puts a.fizzbuzz(40)
