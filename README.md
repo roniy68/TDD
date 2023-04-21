@@ -7,13 +7,15 @@
   <img src="readme-assets/murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Morse Code</b></h3>
+  <h3><b>TDD</b></h3>
 
 </div>
 
 # 📗 Table of Contents
+
 ## 📑 Table of Contents
-- [📊 Morse Code ](#-Morse Code-)
+
+- [📊 TDD ](#-TDD-)
   - [🛠 Built With ](#-built-with-)
     - [🧰 Tech Stack ](#-tech-stack-)
     - [💎 Key Features ](#-key-features-)
@@ -33,10 +35,11 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📊 Morse Code <a name="about-project"></a>
+# 📊 TDD <a name="about-project"></a>
 
-A Morse Code Decoder with Ruby
+A Test Driven Development example with solving a problem .
 
+Ruby is awesome
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -56,8 +59,6 @@ A Morse Code Decoder with Ruby
 
 <!-- LIVE DEMO -->
 
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
@@ -68,15 +69,15 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need [Node.js](https://nodejs.org/en/) installed on your machine.
+In order to run this project you need [Ruby]](https://www.ruby-lang.org/) installed on your machine.
 
 ### Setup
 
 Clone this repository to your desired folder:
 
 ```sh
-  git clone https://github.com/roniy68/decode-morse-rb
-  cd decode-morse-rb
+  git clone https://github.com/roniy68/tdd
+  cd tdd
 ```
 
 ### Install
@@ -92,9 +93,8 @@ Install the dependencies with:
 To run the project, execute the following command:
 
 ```sh
-  ruby decode-morse-rb
+  rspec
 ```
-
 
 ### Output
 
@@ -113,7 +113,6 @@ I am always looking for ways to improve my project. If you have any suggestions 
 [![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ahroniy)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ahmed.hasan.rony@gmail.com)
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
@@ -126,13 +125,14 @@ I am always looking for ways to improve my project. If you have any suggestions 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
+
 ## 📧 Authors <a name="authors"></a>
 
 👤 **Ahmed Hasan Rony**
 
-- ***[Ahmed Hasan Rony](https://github.com/roniy68)***
+- **_[Ahmed Hasan Rony](https://github.com/roniy68)_**
 
-👤 **Rabecca Nabwire*
+👤 \*_Rabecca Nabwire_
 
 - GitHub: [@Becky449](https://github.com/Becky449)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/rabeccanabwire/)
@@ -158,6 +158,7 @@ If you like this project, please consider giving it a ⭐.
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 This project was inspired by:
+
 - [GitHub Finder](https://github.com/JasurbekIsokov/github-finder)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
